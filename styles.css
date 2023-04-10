@@ -1,10 +1,10 @@
 body {
 	background: black;
 }
-* {
+/* {
 	border: 1px dashed red;
 	min-height: 10px;
-}
+}*/
 .postcard {
 	background: white;
 	width: 400px;
@@ -13,9 +13,10 @@ body {
 }
 .postcard-header {
 	display: flex;
+	padding: 10px;
 }
 .postcard-header img {
-	witdh: 70px;
+	width: 70px;
 	height: 70px;
 }
 .postcard-header h1 {
@@ -37,10 +38,12 @@ body {
 .body-right {
 	padding: 10px;
 }
-input {
-	border: 1;
-	border-bottom: grey;
+.body-right input {
+	border: none;
+	border-bottom: 1px solid grey;
+	margin-top: 18px;
 }
+
 .postcard-footer {
 	text-align: center;
 }
